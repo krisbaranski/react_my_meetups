@@ -7,9 +7,9 @@ import { FavoritesContextProvider } from "./store/favorites-context";
 
 ReactDOM.render(
   <FavoritesContextProvider>
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </FavoritesContextProvider>,
   document.getElementById("root")
 );
