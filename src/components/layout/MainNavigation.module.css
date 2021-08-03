@@ -1,0 +1,44 @@
+.logo {
+  font-size: 2rem;
+  margin: 0 auto;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header ul {
+  list-style: none;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+.header a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #82a8cc;
+}
+
+.badge {
+  background-color: #444;
+  color: white;
+  border-radius: 100px;
+  padding: 0.3rem 0.6rem;
+  margin-left: 10px;
+  border: 1px solid #82a8cc;
+}
